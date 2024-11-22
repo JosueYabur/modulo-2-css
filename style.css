@@ -5,7 +5,7 @@
 }
 /*Selector de tipo: Etiqueta*/
 body{
-    background-color: chocolate; 
+    background-color: forestgreen; 
 }
 main{
     display: flex;
@@ -27,12 +27,12 @@ h1{
     justify-content: center;
     align-items: center;
     margin: 8px;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.8s ease-in-out;
 }
 .tarjeta:hover{
     background-color: aqua;
     transform: scale(1.1);
-    transform: rotate(3seg);
+    transform: rotate(deg);
 }
 .tarjeta .caja-contenedora{
     width: 200px;
@@ -54,10 +54,10 @@ h1{
     color: blue;
 }
 #borregos{
-    color:aqua;
+    color:rgb(8, 75, 75);
 }
 #mariposa{
-    color: rgba(0, 255, 13, 0.685);
+    color: rgba(15, 119, 20, 0.685);
 }
 #cerditos{
     color:darkgoldenrod;
