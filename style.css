@@ -3,9 +3,16 @@
     padding: 0; 
     margin: 0;
 }
+
+.lacquer-regular {
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
 /*Selector de tipo: Etiqueta*/
 body{
     background-color: forestgreen; 
+    font-family: Arial, Helvetica, sans-serif;
 }
 main{
     display: flex;
