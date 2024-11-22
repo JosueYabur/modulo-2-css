@@ -2,8 +2,9 @@
 *{
     padding: 0; 
     margin: 0;
+    box-sizing: border-box;
 }
-
+/* CSS que me dió Gogle Fonts */
 .lacquer-regular {
     font-family: "Lacquer", system-ui;
     font-weight: 400;
@@ -12,7 +13,9 @@
 /*Selector de tipo: Etiqueta*/
 body{
     background-color: forestgreen; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lacquer", system-ui;
+    font-weight: 300;
+    font-style: normal;
 }
 main{
     display: flex;
@@ -23,6 +26,7 @@ h1{
 }
 /*Selector de tipo: Clase*/
 /*Reutilizar estilos*/
+
 .tarjeta {
     width: 320px;
     background-color: antiquewhite;
@@ -33,20 +37,25 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 8px;
+    margin: 8px 8px 8px 8px;
+    padding: 12px;
+    border: 2px solid;
     transition: all 0.8s ease-in-out;
+    
 }
 .tarjeta:hover{
     background-color: aqua;
     transform: scale(1.1);
-    transform: rotate(deg);
+    transform: rotate(3deg);
 }
 .tarjeta .caja-contenedora{
     width: 200px;
     
 }
 .tarjeta img{
-    width: 100%;
+    
+    width: 120px;
+    height: 120px;
     object-fit: cover;
     border-radius: 5%;
 }
